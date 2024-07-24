@@ -4,7 +4,7 @@ import anyio
 
 async def main():
 	nas = nnas.NNASClient()
-	pid = await nas.get_pid("Kinnay-WiiU")
+	pid = await nas.get_pid("milkcool")
 	mii = await nas.get_mii(pid)
 	print("NNID:", mii.nnid)
 	print("PID:", mii.pid)

@@ -31,7 +31,7 @@ class HppClient:
 	def set_environment(self, env): self.environment = env
 	
 	def host(self):
-		return "hpp-%08x-%s.n.app.nintendo.net" %(self.game_server_id, self.environment.lower())
+		return "hpp-%08x-%s.n.app.pretendo.cc" %(self.game_server_id, self.environment.lower())
 
 	async def request(self, protocol, method, body):
 		call_id = self.call_id

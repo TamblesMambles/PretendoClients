@@ -1,5 +1,6 @@
 # FORK INFORMATION
-This fork was created for for communicating with the new Pretendo servers. The Switch code is left untouched (and it might be deleted in the future). The addresses are changed for communicating with Pretendo servers.
+This fork was created for for communicating with the new Pretendo servers. The Switch code is left untouched (and it might be deleted in the future). The addresses are changed for communicating with Pretendo servers.\
+PLEASE NOTE that this fork disables SSL certificate verification.
 
 # Nintendo Clients
 > :warning: Keep in mind that Nintendo bans Switch devices that show suspicious behavior. This package tries to mimic the behavior of a real Switch as closely as possible, but using it is at your own risk. Make sure that you know what you are doing.

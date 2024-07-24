@@ -3,7 +3,7 @@ from anynet import util
 import struct
 
 
-PRIMARY_ADDRESS = "nncs1-lp1.n.n.srv.nintendo.net"
+PRIMARY_ADDRESS = "nncs1-lp1.n.n.srv.pretendo.cc"
 PRIMARY_PORT = 10025
 
 

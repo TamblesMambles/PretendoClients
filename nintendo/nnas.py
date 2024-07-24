@@ -239,15 +239,15 @@ class Profile:
 
 class NNASClient:
 	def __init__(self):
-		self.url = "account.nintendo.net"
+		self.url = "account.pretendo.cc"
 		
-		ca = tls.TLSCertificate.load(CA, tls.TYPE_DER)
-		cert = tls.TLSCertificate.load(CERT, tls.TYPE_DER)
-		key = tls.TLSPrivateKey.load(KEY, tls.TYPE_DER)
+		#ca = tls.TLSCertificate.load(CA, tls.TYPE_DER)
+		#cert = tls.TLSCertificate.load(CERT, tls.TYPE_DER)
+		#key = tls.TLSPrivateKey.load(KEY, tls.TYPE_DER)
 		
 		self.context = tls.TLSContext()
-		self.context.set_authority(ca)
-		self.context.set_certificate(cert, key)
+		#self.context.set_authority(ca)
+		#self.context.set_certificate(cert, key)
 		
 		self.client_id = "a2efa818a34fa16b8afbc8a74eba3eda"
 		self.client_secret = "c91cdb5658bd4954ade78533a339cf9a"
