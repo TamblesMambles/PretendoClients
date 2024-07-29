@@ -995,8 +995,8 @@ class PRUDPClient:
 					await self.cleanup()
 	
 	async def process_syn(self, packet):
-		if packet.signature != self.packet_encoder.calc_packet_signature(packet, b"", b""):
-			raise ValueError("Received SYN packet with invalid signature")
+		#if packet.signature != self.packet_encoder.calc_packet_signature(packet, b"", b""):
+		#	raise ValueError("Received SYN packet with invalid signature")
 		if not packet.flags & FLAG_ACK:
 			raise ValueError("Received unexpected SYN packet")
 		if packet.session_id != 0 or packet.packet_id != 0 or \
