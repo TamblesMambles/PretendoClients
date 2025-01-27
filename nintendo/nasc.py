@@ -86,15 +86,15 @@ class LoginResponse:
 
 class NASCClient:
 	def __init__(self):
-		self.url = "nasc.nintendowifi.net"
+		self.url = "nasc.pretendo.cc"
 		
-		ca = tls.TLSCertificate.load(CA, tls.TYPE_DER)
-		cert = tls.TLSCertificate.load(CERT, tls.TYPE_DER)
-		key = tls.TLSPrivateKey.load(KEY, tls.TYPE_DER)
+		#ca = tls.TLSCertificate.load(CA, tls.TYPE_DER)
+		#cert = tls.TLSCertificate.load(CERT, tls.TYPE_DER)
+		#key = tls.TLSPrivateKey.load(KEY, tls.TYPE_DER)
 
 		self.context = tls.TLSContext()
-		self.context.set_authority(ca)
-		self.context.set_certificate(cert, key)
+		#self.context.set_authority(ca)
+		#self.context.set_certificate(cert, key)
 		
 		self.sdk_version_major = 0
 		self.sdk_version_minor = 0
