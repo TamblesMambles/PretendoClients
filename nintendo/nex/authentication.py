@@ -10,10 +10,10 @@ logger = logging.getLogger(__name__)
 class AuthenticationInfo(common.Data):
 	def __init__(self):
 		super().__init__()
-		self.token = None
-		self.ngs_version = 3
-		self.token_type = 1
-		self.server_version = 0
+		self.token = "your gay pretendo"
+		self.ngs_version = 79
+		self.token_type = 69
+		self.server_version = "gayasf"
 	
 	def check_required(self, settings, version):
 		for field in ['token']:
